@@ -1,7 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Pedro Maciel">
-  <rect x="2" y="2" width="60" height="60" rx="8" fill="#0d0e11" stroke="#f0b44c" stroke-width="3"/>
-  <!-- P -->
-  <path d="M15 46V18h10.5a8 8 0 0 1 0 16H15" fill="none" stroke="#f0b44c" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"/>
-  <!-- M -->
-  <path d="M33 46V18l8.5 14L50 18v28" fill="none" stroke="#eceef1" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#f0b44c"/>
+  <!-- P cuja curva volta como seta (rotina automática) -->
+  <g fill="none" stroke="#0d0e11" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 15V49"/>
+    <path d="M21 15H32A9.5 9.5 0 0 1 32 34H29"/>
+    <path d="M32 28.5L26.5 34L32 39.5"/>
+  </g>
+  <!-- cursor de terminal -->
+  <rect x="36" y="44" width="14" height="5" rx="2" fill="#0d0e11"/>
 </svg>
