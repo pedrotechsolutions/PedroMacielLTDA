@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pedro Maciel · Desenvolvimento e automações para pequenos negócios</title>
+  <meta name="description" content="Pedro Henrique Martins Maciel LTDA (CNPJ 64.085.846/0001-54). Desenvolvimento de software, robôs de automação e integrações para pequenos negócios.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="wrap">
+      <a class="marca" href="index.html"><span class="mono-logo">PM</span>Pedro <b>Maciel</b></a>
+      <nav class="menu">
+        <a href="#servicos">Serviços</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#sobre">Sobre</a>
+        <a class="cta-mini" href="#contato">Fale comigo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-texto">
+          <span class="status"><i></i>Aceitando novos projetos</span>
+          <h1>Pedro Maciel</h1>
+          <span class="cargo">Desenvolvimento e automação para pequenos negócios.</span>
+          <p class="intro">Eu crio sistemas e robôs que fazem o trabalho repetitivo da sua empresa: entrar em portais, copiar dados, conferir planilhas, mandar relatórios. Você para de perder horas com isso e passa a ter a informação pronta todo dia.</p>
+          <div class="botoes">
+            <a class="btn" href="#contato">Conversar sobre um projeto</a>
+            <a class="btn sec" href="#projetos">Ver o que já fiz</a>
+          </div>
+        </div>
+
+        <div class="terminal" aria-hidden="true">
+          <div class="barra"><span></span><span></span><span></span><em>coleta-diaria.log</em></div>
+<pre><span class="c"># 08:20 · rotina automática</span>
+<span class="ac">$</span> iniciar coleta
+<span class="ok">✓</span> login no portal (sessão reaproveitada)
+<span class="ok">✓</span> 202 clientes lidos
+<span class="ok">✓</span> 189 grupos atualizados
+<span class="ok">✓</span> dados enviados ao sistema interno
+<span class="c"># próxima execução em 30 min</span></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao surface" id="servicos">
+      <div class="wrap">
+        <span class="rotulo">Serviços</span>
+        <h2>O que eu faço</h2>
+        <p class="lead">Foco em coisas que dão retorno rápido para empresas pequenas: menos trabalho manual, menos erro, informação na hora certa.</p>
+        <div class="grade">
+          <div>
+            <span class="num">01</span>
+            <h3>Robôs de automação</h3>
+            <p>Automatizo tarefas feitas em sites e portais: login, consultas, downloads e preenchimento de dados, rodando sozinho no horário que você definir.</p>
+          </div>
+          <div>
+            <span class="num">02</span>
+            <h3>Sistemas web</h3>
+            <p>Painéis e sistemas internos feitos para o seu processo, e não o contrário. Cadastros, acompanhamento e relatórios num lugar só.</p>
+          </div>
+          <div>
+            <span class="num">03</span>
+            <h3>Integrações e APIs</h3>
+            <p>Faço sistemas diferentes conversarem entre si, para que um dado cadastrado num lugar apareça automaticamente no outro.</p>
+          </div>
+          <div>
+            <span class="num">04</span>
+            <h3>Sites para empresas</h3>
+            <p>Sites institucionais simples, rápidos e prontos para celular, com as informações que o cliente (e as plataformas) precisam ver.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="projetos">
+      <div class="wrap">
+        <span class="rotulo">Projetos</span>
+        <h2>Na prática</h2>
+        <p class="lead">Alguns tipos de trabalho que já estão rodando em produção. Os nomes dos clientes ficam de fora por confidencialidade.</p>
+        <div class="projetos">
+          <article class="projeto">
+            <div><span class="tag">AUTOMAÇÃO</span></div>
+            <div>
+              <h3>Coleta diária em portais de parceiros</h3>
+              <p>Robôs que entram em portais de seguradoras e administradoras, leem centenas de registros e entregam tudo organizado no sistema da empresa, várias vezes ao dia, sem ninguém precisar abrir o navegador.</p>
+              <ul><li>Node.js</li><li>Playwright</li><li>agendamento</li></ul>
+            </div>
+          </article>
+          <article class="projeto">
+            <div><span class="tag">PAINEL</span></div>
+            <div>
+              <h3>Acompanhamento de rotinas automáticas</h3>
+              <p>Painel que mostra o que rodou, o que falhou e quando é a próxima execução, para a equipe saber de tudo sem depender do técnico.</p>
+              <ul><li>web</li><li>relatórios</li><li>alertas</li></ul>
+            </div>
+          </article>
+          <article class="projeto">
+            <div><span class="tag">INTEGRAÇÃO</span></div>
+            <div>
+              <h3>Envio automático para o sistema interno</h3>
+              <p>Integração que pega os dados coletados e envia para o sistema da empresa por API, em lotes, com controle do que já foi enviado.</p>
+              <ul><li>APIs REST</li><li>TypeScript</li><li>SQLite</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao surface" id="como">
+      <div class="wrap">
+        <span class="rotulo">Como funciona</span>
+        <h2>Do problema à rotina rodando</h2>
+        <div class="grade">
+          <div><span class="num">01</span><h3>Conversa</h3><p>Você me mostra o que toma tempo hoje. Eu digo se dá para automatizar e o que esperar.</p></div>
+          <div><span class="num">02</span><h3>Proposta</h3><p>Escopo, prazo e valor por escrito, antes de começar.</p></div>
+          <div><span class="num">03</span><h3>Entrega</h3><p>Construo em etapas curtas e você valida cada uma.</p></div>
+          <div><span class="num">04</span><h3>Suporte</h3><p>Portal mudou, processo mudou: eu ajusto e mantenho funcionando.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="sobre">
+      <div class="wrap">
+        <span class="rotulo">Sobre</span>
+        <div class="sobre">
+          <div>
+            <h2>Quem está por trás</h2>
+            <p>Sou o <strong>Pedro Henrique Martins Maciel</strong>, desenvolvedor. Trabalho com automação e sistemas para empresas que não têm (nem precisam ter) um time de TI.</p>
+            <p>Muita empresa pequena perde horas por dia copiando informação de um portal para uma planilha, de uma planilha para um sistema. É esse tipo de problema que eu resolvo.</p>
+            <p>Atendo pela minha empresa, a <strong>Pedro Henrique Martins Maciel LTDA</strong>, com proposta e contrato formal.</p>
+          </div>
+          <ul class="ficha">
+            <li><span>Razão social</span><b>Pedro Henrique Martins Maciel LTDA</b></li>
+            <li><span>CNPJ</span><b>64.085.846/0001-54</b></li>
+            <li><span>Atividade</span><b>Desenvolvimento de software e automação</b></li>
+            <li><span>Atendimento</span><b>Todo o Brasil, remoto</b></li>
+            <li><span>E-mail</span><b><a href="mailto:pedrohmm.tech@gmail.com">pedrohmm.tech@gmail.com</a></b></li>
+            <!-- PREENCHER: telefone e endereço iguais aos do cartão CNPJ
+            <li><span>Telefone</span><b>(00) 00000-0000</b></li>
+            <li><span>Endereço</span><b>Rua ..., nº ... · Cidade/UF · CEP</b></li>
+            -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao surface contato" id="contato">
+      <div class="wrap">
+        <span class="rotulo">Contato</span>
+        <h2>Vamos conversar</h2>
+        <p class="lead">Me conte o que toma tempo na sua empresa hoje. Respondo em até 1 dia útil.</p>
+        <a class="email-grande" href="mailto:pedrohmm.tech@gmail.com">pedrohmm.tech@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="wrap">
+      <div><strong>Pedro Henrique Martins Maciel LTDA</strong><br>CNPJ 64.085.846/0001-54</div>
+      <nav>
+        <a href="privacidade.html">Política de Privacidade</a>
+        <a href="termos.html">Termos de Uso</a>
+        <a href="index.html#contato">Contato</a>
+      </nav>
+      <div class="direitos">© <span class="ano">2026</span> Pedro Henrique Martins Maciel LTDA · CNPJ 64.085.846/0001-54 · Todos os direitos reservados.</div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.ano').forEach(function (el) { el.textContent = new Date().getFullYear(); });
+  </script>
+</body>
+</html>
